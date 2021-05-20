@@ -1,0 +1,33 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "cadastro-memorandos-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/cadastroMemorandos/CadastroMemorandosWebPart.js",
+          "manifest": "./src/webparts/cadastroMemorandos/CadastroMemorandosWebPart.manifest.json"
+        }
+      ]
+    },
+    "listagem-memorandos-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/listagemMemorandos/ListagemMemorandosWebPart.js",
+          "manifest": "./src/webparts/listagemMemorandos/ListagemMemorandosWebPart.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {
+    "jquery": {
+      "path": "node_modules/jquery/dist/jquery.min.js",
+      "globalName": "jQuery"
+    }
+  },
+  "localizedResources": {
+    "CadastroMemorandosWebPartStrings": "lib/webparts/cadastroMemorandos/loc/{locale}.js",
+    "ControlStrings": "node_modules/@pnp/spfx-controls-react/lib/loc/{locale}.js",
+    "ListagemMemorandosWebPartStrings": "lib/webparts/listagemMemorandos/loc/{locale}.js"
+  }
+}

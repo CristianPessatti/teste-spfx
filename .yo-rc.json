@@ -1,0 +1,12 @@
+{
+  "@microsoft/generator-sharepoint": {
+    "isCreatingSolution": false,
+    "environment": "spo",
+    "version": "1.11.0",
+    "libraryName": "celesc-ecm",
+    "libraryId": "fedc867a-b532-4ec3-a977-770ce8832d8d",
+    "packageManager": "npm",
+    "isDomainIsolated": true,
+    "componentType": "webpart"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "celesc-ecm-client-side-solution",
+    "id": "fedc867a-b532-4ec3-a977-770ce8832d8d",
+    "version": "1.0.1.4",
+    "includeClientSideAssets": true,
+    "isDomainIsolated": true,
+    "developer": {
+      "name": "",
+      "websiteUrl": "",
+      "privacyUrl": "",
+      "termsOfUseUrl": "",
+      "mpnId": ""
+    }
+  },
+  "paths": {
+    "zippedPackage": "solution/celesc-ecm.sppkg"
+  }
+}
